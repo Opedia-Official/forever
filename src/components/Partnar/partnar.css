@@ -1,0 +1,22 @@
+ .partnar-area .card {
+    border-radius: 10px;
+    align-items: center;
+    padding: 13px;
+    background: #23242f;
+    background-size: 100%;
+    background-image: linear-gradient(to right bottom, #2e2f3e, #121218);
+    box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.7);
+    animation: shadows 2s linear infinite alternate;
+}
+
+
+  @keyframes shadows {
+    0% {
+      box-shadow: 0 2px 4px -2px rgba(0, 0, 0, .25);
+      transform: scale(0.95);
+   }
+    100% {
+      box-shadow: 0 0 4px 2px rgba(0, 0, 0, .25);
+      transform: scale(1);
+   }
+ }

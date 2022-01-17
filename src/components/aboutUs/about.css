@@ -1,0 +1,88 @@
+.about-us-info.text-center h2 {
+    position: relative;
+}
+
+.about-us-info.text-center h2:after {
+    position: absolute;
+    content: '';
+    height: 2px;
+    width: 35%;
+    background: #79EBEB;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+}
+
+.about-us-info.text-center h2:before {
+    position: absolute;
+    content: '';
+    height: 2px;
+    width: 35%;
+    background: #79EBEB;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+}
+
+.about-right-info li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.about-right-info li a {
+    font-size: 30px;
+    color: #fff;
+    display: inline-block;
+    transition: .3s;
+}
+
+.about-right-info {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.about-right-wrap {
+    padding: 10px 0;
+}
+.about-right-info li a:hover {
+    color: #79EBEB;;
+}
+
+.about-us-info P {
+    font-size: 19px;
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    .about-us-info P {
+      font-size: 16px;
+  }
+  div#AboutUs {
+    padding-top: 0;
+}
+  
+  }
+
+
+/* Medium devices (tablets, 768px and up) */
+@media (max-width: 767.98px) { 
+    .about-us-info P {
+      font-size: 16px;
+  }
+  div#AboutUs {
+    padding-top: 0;
+}
+.about-us-info P {
+    font-size: 16px;
+}
+div#AboutUs {
+  padding-top: 0;
+}
+
+.about-right-info li a {
+    font-size: 20px;
+}
+  
+  }
+
+

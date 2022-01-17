@@ -1,0 +1,127 @@
+
+  .vertical-timeline-element-content {
+    background: #23242f;
+    background-size: 100%;
+    background-image: linear-gradient(to right bottom, #2e2f3e, #121218);
+    box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.7);
+  }
+  .vertical-timeline--animate .vertical-timeline-element-content.bounce-in{
+    background: #23242f;
+    background-size: 100%;
+    background-image: linear-gradient(to right bottom, #2e2f3e, #121218);
+    box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.7);
+  }
+  .vertical-timeline-element-content-arrow {
+    border: 7px solid transparent;
+    border-right: 7px solid #23242f !important;
+
+}
+  .date {
+    color: rgb(201, 251, 255);
+  }
+  
+  #description {
+    margin: 1.5em 0 2em 0;
+    color:#79EBEB;
+  }
+  
+  .button {
+    text-decoration: none;
+    padding: 0.5em 1em;
+    border-radius: 5px;
+    color: white;
+  }
+  
+  .workButton {
+    background-color: #06d6a0;
+  }
+  
+  .workButton:hover {
+    background-color: #0ac593;
+  }
+  
+  .schoolButton {
+    background-color: #f9c74f;
+  }
+  
+  .schoolButton:hover {
+    background-color: #f3bc3c;
+  }
+  .vertical-timeline-element-title {
+    margin: 0;
+    color: #79EBEB;
+}
+  
+  .maptoRoad_area {
+    padding: 180px 0;
+}
+
+
+.mapToRoad> h3 {
+  color: #fff;
+  text-shadow: 0 0 10px #fff;
+  display: block;
+  font-size: 50px;
+  margin-bottom: 100px;
+}
+  
+
+
+ .vertical-timeline-element-icon {
+  width: 20px !important;
+  height: 20px !important;
+  left: 50% !important;
+  transform: translateX(-50%) !important;
+  margin: 0 !important;
+}
+@media only screen and (max-width: 1700px) {
+  .vertical-timeline-element-date {
+    display: block !important;
+    float: none !important;
+    color: rgb(44, 44, 44);
+    margin-top: 1.5em;
+
+  }
+
+}
+
+@media only screen and (max-width: 1169px) {
+ 
+  .vertical-timeline-element-icon {
+    left: 20px !important;
+    margin-top: 12px !important;
+}
+
+}
+
+.vertical-timeline {
+  width: 95%;
+  max-width: 992px !important;
+  margin: 0 auto;
+  position: relative;
+  padding: 2em 0;
+}
+
+
+@media (min-width: 576px) and (max-width: 767.98px) { 
+  .mapToRoad> h3 {
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+.maptoRoad_area {
+
+  padding: 120px 0;
+}
+
+}
+
+@media  (max-width: 575.98px) { 
+  .mapToRoad> h3 {
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+.maptoRoad_area {
+  padding: 100px 0;
+}
+
+}
